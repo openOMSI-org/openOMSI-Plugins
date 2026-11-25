@@ -1,0 +1,10 @@
+{
+  "id": "diagnostic-mods",
+  "name": "Diagnostic de mods",
+  "author": "AlexLiveFrr",
+  "version": "1.0.0",
+  "description": "Checks the loaded map, bus, HOF, tickets and timetable for common mod problems, notes slow tiles, crashes at a standstill and roads without lanes, and writes a report file for bug reports. Nothing is sent anywhere.",
+  "license": "MIT",
+  "tags": ["tools", "modding", "debug"],
+  "min_game": "0.3.40"
+}

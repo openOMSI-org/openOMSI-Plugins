@@ -1,0 +1,10 @@
+{
+  "id": "prise-de-service",
+  "name": "Prise de service réaliste",
+  "author": "AlexLiveFrr",
+  "version": "1.0.0",
+  "description": "A depot checklist before you leave (brake, electrics, engine, air pressure, lights, indicator and horn test, destination, doors) and a parking checklist at the end of the duty.",
+  "license": "MIT",
+  "tags": ["driving", "realism", "checklist"],
+  "min_game": "0.3.0"
+}

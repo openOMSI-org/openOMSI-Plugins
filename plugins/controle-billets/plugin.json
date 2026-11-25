@@ -1,0 +1,10 @@
+{
+  "id": "controle-billets",
+  "name": "Contrôle des titres de transport",
+  "author": "AlexLiveFrr",
+  "version": "1.0.0",
+  "description": "Some passengers board without a ticket. Check them at a stop, collect fines, keep the cash desk and get a report at the end of the duty.",
+  "license": "MIT",
+  "tags": ["tickets", "passengers", "career"],
+  "min_game": "0.3.0"
+}

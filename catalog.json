@@ -2,6 +2,94 @@
   "version": 1,
   "plugins": [
     {
+      "id": "controle-billets",
+      "name": "Contrôle des titres de transport",
+      "author": "AlexLiveFrr",
+      "version": "1.0.0",
+      "description": "Some passengers board without a ticket. Check them at a stop, collect fines, keep the cash desk and get a report at the end of the duty.",
+      "license": "MIT",
+      "tags": [
+        "tickets",
+        "passengers",
+        "career"
+      ],
+      "min_game": "0.3.0",
+      "bytes": 12765,
+      "files": [
+        {
+          "path": "main.lua",
+          "size": 12765,
+          "sha256": "c5e8e872e7c9600eccc849578b4fd3ae072049d442a24698582041a977fe172d"
+        }
+      ]
+    },
+    {
+      "id": "diagnostic-mods",
+      "name": "Diagnostic de mods",
+      "author": "AlexLiveFrr",
+      "version": "1.0.0",
+      "description": "Checks the loaded map, bus, HOF, tickets and timetable for common mod problems, notes slow tiles, crashes at a standstill and roads without lanes, and writes a report file for bug reports. Nothing is sent anywhere.",
+      "license": "MIT",
+      "tags": [
+        "tools",
+        "modding",
+        "debug"
+      ],
+      "min_game": "0.3.40",
+      "bytes": 16774,
+      "files": [
+        {
+          "path": "main.lua",
+          "size": 16774,
+          "sha256": "5d799bd61c1d77e8e06dd632838d220ba16196368d1d397cadcd21924a07115c"
+        }
+      ]
+    },
+    {
+      "id": "enregistreur-trajets",
+      "name": "Enregistreur de trajets",
+      "author": "AlexLiveFrr",
+      "version": "1.0.0",
+      "description": "Records every trip (route, speed, delay, stops, crashes) to JSON and a text summary you can share, keeps best times, and draws a recorded trip on the road as a speed-coloured trace. Files stay on your computer.",
+      "license": "MIT",
+      "tags": [
+        "recording",
+        "statistics",
+        "duty"
+      ],
+      "min_game": "0.3.0",
+      "bytes": 18877,
+      "files": [
+        {
+          "path": "main.lua",
+          "size": 18877,
+          "sha256": "e160f0cecffde4e66fb02318623b53a0222062db89ec5ad4bb616cd22cb08ce1"
+        }
+      ]
+    },
+    {
+      "id": "prise-de-service",
+      "name": "Prise de service réaliste",
+      "author": "AlexLiveFrr",
+      "version": "1.0.0",
+      "description": "A depot checklist before you leave (brake, electrics, engine, air pressure, lights, indicator and horn test, destination, doors) and a parking checklist at the end of the duty.",
+      "license": "MIT",
+      "tags": [
+        "driving",
+        "realism",
+        "checklist"
+      ],
+      "min_game": "0.3.0",
+      "bytes": 12606,
+      "files": [
+        {
+          "path": "main.lua",
+          "size": 12606,
+          "sha256": "90da9e6869d9c836eca8e8ee6432b9f75bd9424a3b7b6cd4a768708e2b7c811b"
+        }
+      ]
+    },
+    {
       "id": "speed-warning",
       "name": "Speed warning",
       "author": "openOMSI",

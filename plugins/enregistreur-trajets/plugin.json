@@ -1,0 +1,10 @@
+{
+  "id": "enregistreur-trajets",
+  "name": "Enregistreur de trajets",
+  "author": "AlexLiveFrr",
+  "version": "1.0.0",
+  "description": "Records every trip (route, speed, delay, stops, crashes) to JSON and a text summary you can share, keeps best times, and draws a recorded trip on the road as a speed-coloured trace. Files stay on your computer.",
+  "license": "MIT",
+  "tags": ["recording", "statistics", "duty"],
+  "min_game": "0.3.0"
+}
