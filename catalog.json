@@ -2,6 +2,28 @@
   "version": 1,
   "plugins": [
     {
+      "id": "diagnostic-mods",
+      "name": "Diagnostic de mods",
+      "author": "AlexLiveFrr",
+      "version": "1.0.0",
+      "description": "Checks the loaded map, bus, HOF, tickets and timetable for common mod problems, notes slow tiles, crashes at a standstill and roads without lanes, and writes a report file for bug reports. Nothing is sent anywhere.",
+      "license": "MIT",
+      "tags": [
+        "tools",
+        "modding",
+        "debug"
+      ],
+      "min_game": "0.3.40",
+      "bytes": 16774,
+      "files": [
+        {
+          "path": "main.lua",
+          "size": 16774,
+          "sha256": "5d799bd61c1d77e8e06dd632838d220ba16196368d1d397cadcd21924a07115c"
+        }
+      ]
+    },
+    {
       "id": "speed-warning",
       "name": "Speed warning",
       "author": "openOMSI",
