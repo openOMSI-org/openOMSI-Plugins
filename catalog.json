@@ -2,6 +2,28 @@
   "version": 1,
   "plugins": [
     {
+      "id": "controle-billets",
+      "name": "Contrôle des titres de transport",
+      "author": "AlexLiveFrr",
+      "version": "1.0.0",
+      "description": "Some passengers board without a ticket. Check them at a stop, collect fines, keep the cash desk and get a report at the end of the duty.",
+      "license": "MIT",
+      "tags": [
+        "tickets",
+        "passengers",
+        "career"
+      ],
+      "min_game": "0.3.38",
+      "bytes": 12765,
+      "files": [
+        {
+          "path": "main.lua",
+          "size": 12765,
+          "sha256": "c5e8e872e7c9600eccc849578b4fd3ae072049d442a24698582041a977fe172d"
+        }
+      ]
+    },
+    {
       "id": "speed-warning",
       "name": "Speed warning",
       "author": "openOMSI",
